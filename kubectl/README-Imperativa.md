@@ -263,4 +263,4 @@ kubectl logs $NomeDoPod -c $NomeDoContainer
 
 ## Conclusão
 
-Após todas essas explicações finalizamos o módulo sobre interação **imperática** com Cluster Kubernetes.
+Após todas essas explicações finalizamos o módulo sobre interação **imperativa** com Cluster Kubernetes.
