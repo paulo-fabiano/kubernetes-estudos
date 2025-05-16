@@ -13,7 +13,7 @@ Os principais comandos do **kubectl** são:
 - `kubectl create`
 - `kubectl delete`
 
-Com esses comandos podemos criar objetos de forma **imperátiva**, ou seja, passando o comando com parâmetros do **kubectl**. Há diversos comandos, então sempre consulte a documentação oficial do [Kubernetes](http://kubernetes.io/)
+Com esses comandos podemos criar objetos de forma **imperátiva**, ou seja, passando o comando com parâmetros do **kubectl**. Há diversos comandos, então sempre consulte a documentação oficial do [Kubernetes](http://kubernetes.io/). Abaixo irei falar sobre alguns comandos.
 
 ### kubectl get
 
