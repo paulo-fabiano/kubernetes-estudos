@@ -261,6 +261,14 @@ Caso o Pod tenha múltiplos containers passamos o parâmetro `-c $NomeDoContaine
 kubectl logs $NomeDoPod -c $NomeDoContainer
 ```
 
+---
+
+Um parâmetro interessante também é o `--previos`, com ele podemos ver os logs do container antes da falha ocorrer.
+
+```bash
+kubectl logs $NomeDoPod --previous
+```
+
 ## Conclusão
 
 Após todas essas explicações finalizamos o módulo sobre interação **imperativa** com Cluster Kubernetes.
