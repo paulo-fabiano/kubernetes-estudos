@@ -4,26 +4,26 @@
 
 Sobre a Arquiterura do Kubernetes temos dois conceitos muito importantes: **Control Plane ou Master** e **Data Plane ou Worker**.
 
-         +-----------------------------+
-         |     CONTROL PLANE (Master)  |
-         +-----------------------------+
-         |  kube-apiserver             |
-         |  kube-scheduler             |
-         |  kube-controller-manager    |
-         |  etcd                       |
-         |  cloud-controller-mgr       |
-         +-----------------------------+
-
-          ⇅ Comunicação via API Server
-
-         +-----------------------------+
-         |     DATA PLANE (Worker)     |
-         +-----------------------------+
-         |  kubelet                    |
-         |  kube-proxy                 |
-         |  container runtime          |
-         |  (Pods)                     |
-         +-----------------------------+
+                        +-----------------------------+
+                        |     CONTROL PLANE (Master)  |
+                        +-----------------------------+
+                        |  kube-apiserver             |
+                        |  kube-scheduler             |
+                        |  kube-controller-manager    |
+                        |  etcd                       |
+                        |  cloud-controller-mgr       |
+                        +-----------------------------+
+                
+                         ⇅ Comunicação via API Server
+                
+                        +-----------------------------+
+                        |     DATA PLANE (Worker)     |
+                        +-----------------------------+
+                        |  kubelet                    |
+                        |  kube-proxy                 |
+                        |  container runtime          |
+                        |  (Pods)                     |
+                        +-----------------------------+
 
 
 ### kube-apiserver
