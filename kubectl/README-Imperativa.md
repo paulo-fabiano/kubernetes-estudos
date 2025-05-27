@@ -140,6 +140,16 @@ kubectl scale deployment nginx --replicas=5
 
 > **Nota**: Nessa situação estamos escalando nosso nginx para cinco réplicas no nosso Deployment.
 
+---
+
+Podemos ainda configurar um escalonamento com base em métricas de usdo CPU e/ou memória.
+
+```bash
+kubectl autoscale deployment $NomeDoDeployment --min=2 --max=5 --cpu-percent=80
+```
+
+Nesse caso, quando o uso de CPU chegar a 80%, os Pods poderão ser escalados até 5 Pods.
+
 ### kubectl run 
 
 O comando **run** cria um Pod, isso mesmo, somente um Pod.
